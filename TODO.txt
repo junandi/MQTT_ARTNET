@@ -1,0 +1,12 @@
+
+
+
+================================================
+=============== Anmeldung ESP ==================
+================================================
+- Startup/Anmelde-Mediator: Addon zu WIFIManager
+	- Jeder ESP bekommt die selbe SSID und Passwort - die der Mediator bereit stellt für das Anmelde-Mediations-Netzwerk
+	- Wenn mehrere ESPs beim Start keinen Host(Raspy) finden aber einen ESP, connecten Sie sich zu diesem und nutzen diesen als Mediator
+	- Dies bedeutet, dass nur er die Anemelde-Seite hosted und die information anschließend an alle Clients weiterleitet z.B. per MQTT
+
+
